@@ -23,4 +23,4 @@ parser.add_option("--passsel", dest="passsel",help="Choose the password selector
 parser.add_option("--loginsel", dest="loginsel",help= "Choose the login button selector")
 parser.add_option("--passlist", dest="passlist",help="Enter the password list directory")
 parser.add_option("--website", dest="website",help="choose a website")
-(options, args) = parser.parse_args()
+(options, arguments) = parser.parse_args()
