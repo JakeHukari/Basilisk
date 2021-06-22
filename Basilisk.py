@@ -61,7 +61,7 @@ def wizard():
         t.sleep(1)
         print ('[X]')
         t.sleep(1)
-        print ('[!]'+'Website could not be located make sure to use http / https')
+        print ('Website could not be located make sure to use http / https')
         exit()
 
     username_selector = input('Enter the username selector: ')
