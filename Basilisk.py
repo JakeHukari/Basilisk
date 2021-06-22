@@ -59,7 +59,7 @@ def wizard():
         exit()
     except:
         t.sleep(1)
-        print (color.RED + '[X]'+color.CWHITE)
+        print ('[X]')
         t.sleep(1)
         print (color.RED + '[!]'+color.CWHITE+ ' Website could not be located make sure to use http / https')
         exit()
