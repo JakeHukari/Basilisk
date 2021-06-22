@@ -43,8 +43,8 @@ parser.add_option("--website", dest="website",help="choose a website")
 
 def wizard():
     print (banner)
-    website = input(color.GREEN + color.BOLD  + color.CWHITE + 'Enter website: ')
-    sys.stdout.write(color.GREEN + '[!] '+color.CWHITE + 'Checking if website exists '),
+    website = input('Enter website: ')
+    sys.stdout.write('Checking if website exists '),
     sys.stdout.flush()
     t.sleep(1)
     try:
