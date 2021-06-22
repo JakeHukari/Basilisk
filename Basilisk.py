@@ -64,7 +64,7 @@ def wizard():
         print ('[!]'+'Website could not be located make sure to use http / https')
         exit()
 
-    username_selector = input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the username selector: ')
+    username_selector = input('Enter the username selector: ')
     password_selector = input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the password selector: ')
     login_btn_selector = input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the Login button selector: ')
     username = input(color.GREEN + '[~] ' + color.CWHITE + 'Enter a username to brute-force: ')
