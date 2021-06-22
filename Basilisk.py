@@ -44,7 +44,7 @@ parser.add_option("--website", dest="website",help="choose a website")
 def wizard():
     print (banner)
     website = input(color.GREEN + color.BOLD  + color.CWHITE + 'Enter a website: ')
-    sys.stdout.write(color.GREEN + '[!] '+color.CWHITE + 'Checking if site exists '),
+    sys.stdout.write(color.GREEN + '[!] '+color.CWHITE + 'Checking if website exists '),
     sys.stdout.flush()
     t.sleep(1)
     try:
@@ -111,9 +111,7 @@ banner = color.BOLD + color.RED +'''
   ███    ███   ███    ███    ▄█    ███ ███  ███▌    ▄ ███     ▄█    ███   ███ ▀███▄ 
 ▄█████████▀    ███    █▀   ▄████████▀  █▀   █████▄▄██ █▀    ▄████████▀    ███   ▀█▀ 
                                             ▀                             ▀         
-  {0}[{1}-{2}]--> {3}
-  {4}[{5}-{6}]--> {7} 
-  {8}[{9}-{10}]-->{11}                   '''.format(color.RED, color.CWHITE,color.RED,color.GREEN,color.RED, color.CWHITE,color.RED,color.GREEN,color.RED, color.CWHITE,color.RED,color.GREEN)
+'''.format(color.RED, color.CWHITE,color.RED,color.GREEN,color.RED, color.CWHITE,color.RED,color.GREEN,color.RED, color.CWHITE,color.RED,color.GREEN)
 
 if options.username == None:
     if options.usernamesel == None:
