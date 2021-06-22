@@ -67,7 +67,7 @@ def wizard():
     username_selector = input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the username selector: ')
     password_selector = input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the password selector: ')
     login_btn_selector = input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the Login button selector: ')
-    username = input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the username to brute-force: ')
+    username = input(color.GREEN + '[~] ' + color.CWHITE + 'Enter a username to brute-force: ')
     pass_list = input(color.GREEN + '[~] ' + color.CWHITE + 'Enter a directory to your pass list: ')
     brutes(username, username_selector ,password_selector,login_btn_selector,pass_list, website)
 
@@ -98,7 +98,7 @@ def brutes(username, username_selector ,password_selector,login_btn_selector,pas
             print ('AN ELEMENT HAS BEEN REMOVED FROM THE PAGE SOURCE THIS COULD MEAN 2 THINGS THE PASSWORD WAS FOUND OR YOU HAVE BEEN LOCKED OUT OF ATTEMPTS! ')
             print ('LAST PASS ATTEMPT BELLOW')
             print (color.GREEN + 'Password has been found: {0}'.format(line))
-            print (color.YELLOW + 'Have fun :)')
+            print (color.YELLOW + 'Thank you for using Basilisk')
             exit()
 
 banner = color.BOLD + color.RED +'''
