@@ -6,4 +6,4 @@
 #### cd Basilisk
 #### pip install -r requirements.txt
 #### py Basilisk.py
-#### enter the prompts and 
+#### enter the prompts and if you get any errors try reinstalling chromedriver
