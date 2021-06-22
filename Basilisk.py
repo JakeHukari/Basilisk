@@ -96,7 +96,7 @@ def brutes(username, username_selector ,password_selector,login_btn_selector,pas
             print ('AN ELEMENT HAS BEEN REMOVED FROM THE PAGE SOURCE THIS COULD MEAN 2 THINGS THE PASSWORD WAS FOUND OR YOU HAVE BEEN LOCKED OUT OF ATTEMPTS! ')
             print ('LAST PASS ATTEMPT BELLOW')
             print ('Password has been found: {0}'.format(line))
-            print (color.YELLOW + 'Thank you for using Basilisk')
+            print ('Thank you for using Basilisk')
             exit()
 
 banner = color.BOLD + color.RED +'''
