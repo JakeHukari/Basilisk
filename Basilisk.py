@@ -26,6 +26,7 @@ parser.add_option("--passlist", dest="passlist",help="Enter the password list di
 parser.add_option("--website", dest="website",help="choose a website")
 (options, args) = parser.parse_args()
 
+os.system('cls')
 
 def perog():
     print (banner)
