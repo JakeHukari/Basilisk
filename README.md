@@ -5,3 +5,4 @@ The best, most efficient, most effective, and most universal password brute-forc
 #### Git clone https://github.com/Krypt0c/Basilisk
 #### cd Basilisk
 #### pip install -r requirements.txt
+#### py Basilisk.py
