@@ -89,7 +89,7 @@ def brutes(username, username_selector ,password_selector,login_btn_selector,pas
                 print ('------------------------')
                 print ('Tried password: '+'for user: '+username)
                 print ('------------------------')
-        except KeyboardInterrupt: #returns to main menu if ctrl C is used
+        except KeyboardInterrupt:
             print('CTRL C')
             break
         except selenium.common.exceptions.NoSuchElementException:
