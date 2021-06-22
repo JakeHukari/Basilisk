@@ -50,7 +50,7 @@ def wizard():
     try:
         request = requests.get(website)
         if request.status_code == 200:
-            print (color.GREEN + '[OK]'+color.CWHITE)
+            print ('[OK]')
             sys.stdout.flush()
     except selenium.common.exceptions.NoSuchElementException:
         pass
