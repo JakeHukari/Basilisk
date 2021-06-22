@@ -26,7 +26,7 @@ parser.add_option("--website", dest="website",help="choose a website")
 (options, args) = parser.parse_args()
 
 
-def wizard():
+def perog():
     print (banner)
     website = input('Enter website: ')
     sys.stdout.write('Checking if website exists '),
