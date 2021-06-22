@@ -3,3 +3,4 @@ The best, most efficient, most effective, and most universal password brute-forc
 
 # Instructions
 #### Git clone https://github.com/Krypt0c/Basilisk
+#### cd Basilisk
