@@ -55,7 +55,7 @@ def wizard():
     except selenium.common.exceptions.NoSuchElementException:
         pass
     except KeyboardInterrupt:
-        print (color.RED + '[!]'+color.CWHITE+ 'User used Ctrl-c to exit')
+        print ('User used Ctrl-c to exit')
         exit()
     except:
         t.sleep(1)
