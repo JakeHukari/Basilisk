@@ -65,7 +65,7 @@ def wizard():
         exit()
 
     username_selector = input('Enter the username selector: ')
-    password_selector = input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the password selector: ')
+    password_selector = input('Enter the password selector: ')
     login_btn_selector = input(color.GREEN + '[~] ' + color.CWHITE + 'Enter the Login button selector: ')
     username = input(color.GREEN + '[~] ' + color.CWHITE + 'Enter a username to brute-force: ')
     pass_list = input(color.GREEN + '[~] ' + color.CWHITE + 'Enter a directory to your pass list: ')
