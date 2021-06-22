@@ -102,7 +102,7 @@ if options.username == None:
             if options.loginsel == None:
                 if options.passlist == None:
                     if options.website == None:
-                        wizard()
+                        perog()
 
 
 username = options.username
