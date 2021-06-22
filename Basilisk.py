@@ -109,7 +109,7 @@ banner = '''
   ███    ███   ███    ███    ▄█    ███ ███  ███▌    ▄ ███     ▄█    ███   ███ ▀███▄ 
 ▄█████████▀    ███    █▀   ▄████████▀  █▀   █████▄▄██ █▀    ▄████████▀    ███   ▀█▀ 
                                             ▀                             ▀         
-'''.format(color.RED, color.CWHITE,color.RED,color.GREEN,color.RED, color.CWHITE,color.RED,color.GREEN,color.RED, color.CWHITE,color.RED,color.GREEN)
+'''.format()
 
 if options.username == None:
     if options.usernamesel == None:
