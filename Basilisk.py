@@ -59,8 +59,6 @@ def wizard():
         exit()
     except:
         t.sleep(1)
-        print ('[X]')
-        t.sleep(1)
         print ('Website could not be located make sure to use http / https')
         exit()
 
