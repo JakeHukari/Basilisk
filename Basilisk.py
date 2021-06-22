@@ -99,7 +99,7 @@ def brutes(username, username_selector ,password_selector,login_btn_selector,pas
             print ('Thank you for using Basilisk')
             exit()
 
-banner = color.BOLD + color.RED +'''
+banner = '''
 ▀█████████▄     ▄████████    ▄████████  ▄█   ▄█        ▄█     ▄████████    ▄█   ▄█▄ 
   ███    ███   ███    ███   ███    ███ ███  ███       ███    ███    ███   ███ ▄███▀ 
   ███    ███   ███    ███   ███    █▀  ███▌ ███       ███▌   ███    █▀    ███▐██▀   
