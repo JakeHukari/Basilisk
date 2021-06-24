@@ -31,7 +31,7 @@ os.system('cls')
 def perog():
     print (banner)
     website = input('Enter login url: ')
-    sys.stdout.write('Checking if website exists '),
+    sys.stdout.write('Checking if site exists '),
     sys.stdout.flush()
     t.sleep(1)
     try:
@@ -52,7 +52,7 @@ def perog():
     username_selector = input('Enter the username selector: ')
     password_selector = input('Enter the password selector: ')
     login_btn_selector = input('Enter the Login button selector: ')
-    username = input('Enter a username to brute-force: ')
+    username = input('Enter username to brute-force: ')
     pass_list = input('Enter a directory to your password list: ')
     brutes(username, username_selector ,password_selector,login_btn_selector,pass_list, website)
 
