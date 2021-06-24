@@ -73,9 +73,9 @@ def brutes(username, username_selector ,password_selector,login_btn_selector,pas
                 enter = browser.find_element_by_css_selector(login_btn_selector) #Finds Selector
                 Sel_user.send_keys(username)
                 Sel_pas.send_keys(line)
-                print('\n'*numlines)
+                print('\n')
                 print ('Tried password: '+ line + 'For user: '+username)
-                print('\n'*numlines)
+                print('\n')
         except KeyboardInterrupt:
             print('CTRL C')
             break
