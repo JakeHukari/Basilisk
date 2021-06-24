@@ -53,7 +53,7 @@ def perog():
     password_selector = input('Enter the password selector: ')
     login_btn_selector = input('Enter the Login button selector: ')
     username = input('Enter username to brute-force: ')
-    pass_list = input('Enter a directory to your password list: ')
+    pass_list = input('Enter a directory to a password list: ')
     brutes(username, username_selector ,password_selector,login_btn_selector,pass_list, website)
 
 def brutes(username, username_selector ,password_selector,login_btn_selector,pass_list, website):
