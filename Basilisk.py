@@ -30,7 +30,7 @@ os.system('cls')
 
 def perog():
     print (banner)
-    website = input('Enter website: ')
+    website = input('Enter login url: ')
     sys.stdout.write('Checking if website exists '),
     sys.stdout.flush()
     t.sleep(1)
