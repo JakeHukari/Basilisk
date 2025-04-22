@@ -2,7 +2,7 @@
 #### The best, most efficient, most effective, and most universal password brute-forcing tool 
 
 # Instructions
-#### Git clone https://github.com/Krypt0c/Basilisk
+#### Git clone https://github.com/JakeHukari/Basilisk
 #### cd Basilisk
 #### pip install -r requirements.txt
 #### py Basilisk.py
